@@ -20,9 +20,10 @@ public class ListProducts implements ProductsDao {
     }
 
     @Override
-    public void insert(Product product) {
+    public long insert(Product product) {
         //To add a product:
         // I need to ADD the incoming object to my AL
         this.products.add(product);
+        return 0;
     }
 }

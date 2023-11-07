@@ -7,5 +7,5 @@ import java.util.List;
 public interface ProductsDao {
 
     List<Product> all();
-    void insert(Product product);
+    long insert(Product product);
 }
